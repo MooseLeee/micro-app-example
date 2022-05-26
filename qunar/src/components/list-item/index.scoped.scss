@@ -1,0 +1,78 @@
+.list-item {
+  margin-bottom: 12px;
+  padding: 17px 0 17px 0.12rem;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 14px 0 rgb(0 0 0 / 6%);
+  .item-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 13px;
+    .user {
+      display: flex;
+      align-items: center;
+      .avatar {
+        margin-right: 10px;
+        width: 40px;
+        height: 40px;
+        border-radius: 20px;
+        object-fit: cover;
+      }
+      .user-name {
+        .name {
+          font-size: 15px;
+          color: #212121;
+          overflow: hidden;
+          white-space: nowrap;
+          text-overflow: ellipsis;
+        }
+        .date {
+          font-size: 12px;
+          color: #9e9e9e;
+        }
+      }
+    }
+    .follow {
+      margin-right: 12px;
+      width: 0.6rem;
+      height: 0.24rem;
+      line-height: 0.22rem;
+      text-align: center;
+      font-size: 12px;
+      font-weight: 500;
+      color: #ff7800;
+      border-radius: 12px;
+      border: 0.5px solid #ff7800;
+    }
+  }
+  .item-bottom {
+    display: flex;
+    align-items: center;
+    .read-count {
+      flex: 1;
+      line-height: 25px;
+      color: #919191;
+    }
+    .right-btn {
+      display: flex;
+      align-items: center;
+      margin-right: 12px;
+      .btn-item {
+        display: flex;
+        .btn-icon {
+          flex: 0 0 18px;
+          margin-right: 3px;
+          width: 18px;
+        }
+        .btn-label {
+          font-size: 12px;
+          color: #212121;
+        }
+        & + .btn-item {
+          margin-left: 15px;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,1 @@
+export const apiDomain = process.env.VUE_APP_API_DOMAIN

@@ -1,0 +1,147 @@
+.homepage {
+  overflow: hidden;
+  .hot-target {
+    padding: 0.15rem 0.15rem 0.1rem;
+    background-color: #FFFFFF;
+    .header-title {
+      margin-bottom: 0.15rem;
+      font-size: 16px;
+      color: #212121;
+      font-weight: 400;
+    }
+    .target-wrapper {
+      .top-wrapper {
+        margin-right: -0.1rem;
+        font-size: 0;
+        .target-item {
+          position: relative;
+          display: inline-block;
+          width: 1.08rem;
+          height: 0.95rem;
+          text-align: center;
+          margin-right: 0.1rem;
+          margin-bottom: 0.2rem;
+          z-index: 1;
+          .target-img {
+            width: 100%;
+            height: 100%;
+            vertical-align: top;
+          }
+          .target-name {
+            position: absolute;
+            left: 0.14rem;
+            bottom: -0.1rem;
+            padding: 0.05rem 0;
+            width: 0.8rem;
+            height: 0.44rem;
+            box-sizing: border-box;
+            color: #212121;
+            background: rgba(255, 255, 255, 0.95);
+            box-shadow: 0 2px 4px 0 rgb(0 0 0 / 10%);
+            .name {
+              position: relative;
+              line-height: .2rem;
+              font-size: .14rem;
+              text-overflow: ellipsis;
+              overflow: hidden;
+            }
+            .focus-num {
+              display: block;
+              line-height: .13rem;
+              font-size: 0.12rem;
+              color: #616161;
+              text-overflow: ellipsis;
+              word-break: break-all;
+              transform: scale(0.83333);
+              overflow: hidden;
+            }
+          }
+        }
+      }
+      .bottom-wrapper {
+        margin-top: 0.1rem;
+        margin-right: -0.08rem;
+        font-size: 0;
+        .target-item {
+          display: inline-block;
+          width: 0.8rem;
+          height: 0.3rem;
+          margin-right: 0.08rem;
+          margin-bottom: 0.1rem;
+          line-height: .28rem;
+          box-sizing: border-box;
+          text-align: center;
+          font-size: 12px;
+          color: #212121;
+          white-space: nowrap;
+          text-overflow: ellipsis;
+          overflow: hidden;
+          border: 1px solid #e0e0e0;
+        }
+      }
+    }
+  }
+  .menu-list {
+    margin-top: 12px;
+    background-color: #fff;
+    .business-line {
+      padding: 15px 0.15rem 0;
+      display: flex;
+      justify-content: space-between;
+      font-size: 0;
+      .line-item {
+        width: 0.8rem;
+        height: 0.5rem;
+        img {
+          width: 0.8rem;
+          height: 0.5rem;
+        }
+      }
+    }
+    .tag-line {
+      padding: 15px 0.13rem 20px;
+      display: flex;
+      font-size: 0;
+      .line-item {
+        flex: 1;
+        width: 100%;
+        max-width: 16.6%;
+        height: auto;
+        text-align: center;
+        &:nth-child(2) .icon {
+          background-position-y: -1rem;
+        }
+        &:nth-child(3) .icon {
+          background-position-y: -2.5rem;
+        }
+        &:nth-child(4) .icon {
+          background-position-y: -1.5rem;
+        }
+        &:nth-child(5) .icon {
+          background-position-y: -1rem;
+        }
+        &:nth-child(6) .icon {
+          background-position-y: -0.5rem;
+        }
+        .icon {
+          margin: 0 auto 5px;
+          width: 0.35rem;
+          height: 0.36rem;
+          text-align: center;
+          background-image: url("https://s.qunarzz.com/package_mobile/app/home/tag-bg.png");
+          background-size: 0.35rem 3rem;
+          background-repeat: no-repeat;
+        }
+        .label {
+          line-height: 17px;
+          text-align: center;
+          font-size: 12px;
+          color: #212121;
+          white-space: nowrap;
+          text-overflow: ellipsis;
+          overflow: hidden;
+        }
+      }
+    }
+  }
+}

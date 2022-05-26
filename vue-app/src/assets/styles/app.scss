@@ -1,0 +1,68 @@
+/**
+global styles for app
+ */
+
+* {
+  //font-size: 12px;
+}
+
+html, body {
+  font-family: "Helvetica Neue",Helvetica,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","微软雅黑",Arial,sans-serif;
+  padding: 0;
+  border: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.el-table {
+  .cell {
+    font-weight: 400;
+    color: #303133;
+    white-space: nowrap!important;
+  }
+  /deep/.el-table__body {
+    width: 100%!important;
+  }
+}
+.el-radio {
+  .el-radio__label {
+    color: unset!important;
+  }
+}
+.el-checkbox {
+  .el-checkbox__label {
+    color: unset!important;
+  }
+}
+
+.el-message-box {
+  width: unset!important;
+  min-width: 476px!important;
+}
+
+.el-form {
+  .el-form-item {
+    margin-bottom: 5px!important;
+  }
+}
+
+.el-input {
+  /deep/input {
+    &::-webkit-input-placeholder {
+      /* WebKit browsers */
+      color: #838385;
+    }
+    &:-moz-placeholder {
+      /* Mozilla Firefox 4 to 18 */
+      color: #838385;
+    }
+    &::-moz-placeholder {
+      /* Mozilla Firefox 19+ */
+      color: #838385;
+    }
+    &:-ms-input-placeholder {
+      /* Internet Explorer 10+ */
+      color: #838385;
+    }
+  }
+}
